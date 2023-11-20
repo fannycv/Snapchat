@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Necesitamos permisos para acceder a tu album de fotos</string>
 	<key>GIDClientID</key>
 	<string>205950539438-8r0sa4jq249jfmpdte1rjbvfdmqdvbvq.apps.googleusercontent.com</string>
 	<key>CFBundleURLTypes</key>

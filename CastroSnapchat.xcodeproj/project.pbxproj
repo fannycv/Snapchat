@@ -91,6 +91,11 @@
 		D743B4D72AFAF52500D9B3D0 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D743B4D62AFAF52500D9B3D0 /* FirebaseRemoteConfigSwift */; };
 		D743B4D92AFAF52500D9B3D0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D743B4D82AFAF52500D9B3D0 /* FirebaseStorage */; };
 		D743B4DB2AFAF52500D9B3D0 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D743B4DA2AFAF52500D9B3D0 /* FirebaseStorageCombine-Community */; };
+		D74608842B0415D800465EE7 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74608832B0415D800465EE7 /* SnapsViewController.swift */; };
+		D74608862B041BAA00465EE7 /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74608852B041BAA00465EE7 /* ImagenViewController.swift */; };
+		D74608882B042D7500465EE7 /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74608872B042D7500465EE7 /* ElegirUsuarioViewController.swift */; };
+		D746088C2B04335100465EE7 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = D746088B2B04335100465EE7 /* Usuario.swift */; };
+		D78188512B0AB7500030C404 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78188502B0AB7500030C404 /* RegistroViewController.swift */; };
 		D79F06722AFFF8D100A71476 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D79F06712AFFF8D000A71476 /* GoogleService-Info.plist */; };
 		D79F06752AFFFA3900A71476 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D79F06742AFFFA3900A71476 /* GoogleSignIn */; };
 		D79F06772AFFFA3900A71476 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D79F06762AFFFA3900A71476 /* GoogleSignInSwift */; };
@@ -135,6 +140,11 @@
 		D743B4322AFAD97200D9B3D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D743B4352AFAD97200D9B3D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D743B4372AFAD97200D9B3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74608832B0415D800465EE7 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		D74608852B041BAA00465EE7 /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
+		D74608872B042D7500465EE7 /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
+		D746088B2B04335100465EE7 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		D78188502B0AB7500030C404 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		D79F06712AFFF8D000A71476 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -278,9 +288,10 @@
 		D743B4282AFAD97000D9B3D0 /* CastroSnapchat */ = {
 			isa = PBXGroup;
 			children = (
+				D746088A2B04333100465EE7 /* Modelos */,
+				D74608892B04318C00465EE7 /* ViewControllers */,
 				D743B4292AFAD97000D9B3D0 /* AppDelegate.swift */,
 				D743B42B2AFAD97000D9B3D0 /* SceneDelegate.swift */,
-				D743B42D2AFAD97000D9B3D0 /* iniciarSesionViewController.swift */,
 				D743B42F2AFAD97000D9B3D0 /* Main.storyboard */,
 				D743B4322AFAD97200D9B3D0 /* Assets.xcassets */,
 				D743B4342AFAD97200D9B3D0 /* LaunchScreen.storyboard */,
@@ -288,6 +299,26 @@
 				D79F06712AFFF8D000A71476 /* GoogleService-Info.plist */,
 			);
 			path = CastroSnapchat;
+			sourceTree = "<group>";
+		};
+		D74608892B04318C00465EE7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D74608852B041BAA00465EE7 /* ImagenViewController.swift */,
+				D74608832B0415D800465EE7 /* SnapsViewController.swift */,
+				D743B42D2AFAD97000D9B3D0 /* iniciarSesionViewController.swift */,
+				D74608872B042D7500465EE7 /* ElegirUsuarioViewController.swift */,
+				D78188502B0AB7500030C404 /* RegistroViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D746088A2B04333100465EE7 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				D746088B2B04335100465EE7 /* Usuario.swift */,
+			);
+			path = Modelos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,9 +509,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74608842B0415D800465EE7 /* SnapsViewController.swift in Sources */,
+				D74608862B041BAA00465EE7 /* ImagenViewController.swift in Sources */,
+				D746088C2B04335100465EE7 /* Usuario.swift in Sources */,
 				D743B42E2AFAD97000D9B3D0 /* iniciarSesionViewController.swift in Sources */,
 				D743B42A2AFAD97000D9B3D0 /* AppDelegate.swift in Sources */,
+				D78188512B0AB7500030C404 /* RegistroViewController.swift in Sources */,
 				D743B42C2AFAD97000D9B3D0 /* SceneDelegate.swift in Sources */,
+				D74608882B042D7500465EE7 /* ElegirUsuarioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
